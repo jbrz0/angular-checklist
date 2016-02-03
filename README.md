@@ -1,9 +1,11 @@
 # angular-basics
-The Angular Basics course is taught in workspaces.  This is the code for the final course app.
+Collection of basic angular features in a simple checklist app
 
-# set-up
+# set-up (with gulp)
 ```
 git clone <this-repo>
 cd <this-repo>
-http-server -p 3000
-# visit localhost:3000 to see the todoListApp
+npm install
+gulp
+
+# visit localhost:8080 to see the checkListApp

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('todoListApp')
+angular.module('checkListApp')
 .service('dataService', function($http) {
   this.getTodos = function(cb) {
     $http.get('/mock/todos.json').then(cb);
